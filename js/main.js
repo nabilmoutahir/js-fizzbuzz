@@ -16,6 +16,12 @@ for (let i=1; i <= 100; i++) {
         // stampo buzz in console
         console.log("Buzz")
 
+        // se il numero è multiplo di 3
+    } else if (i % 3 == 0) {
+
+        // stampo fizz in console
+        console.log("Fizz")
+
         // altrimenti i numeri sono normali
     } else {
 
@@ -23,5 +29,5 @@ for (let i=1; i <= 100; i++) {
         console.log(i)
 
     }
-
+    
 }
