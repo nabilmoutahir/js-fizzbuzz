@@ -6,11 +6,22 @@ for (let i=1; i <= 100; i++) {
     
     // se il numero è multiplo di 15
     if (i % 15 == 0) {
-        
+
         // stampo fizzbuzz in console
         console.log("FizzBuzz")
 
-    } 
+        // se il numero è multiplo di 5
+    } else if (i % 5 == 0) {
 
-    console.log(i)
+        // stampo buzz in console
+        console.log("Buzz")
+
+        // altrimenti i numeri sono normali
+    } else {
+
+        // stampo numeri normali
+        console.log(i)
+
+    }
+
 }
